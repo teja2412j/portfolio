@@ -1,0 +1,500 @@
+  /* General Body Reset */
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'poppins';
+
+  }
+
+  body {
+      /* background: linear-gradient(155deg, #000000, #8463f8); */
+      background-color: #000;
+      color: white;
+      /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+
+      height: 100vh;
+  }
+
+  /* Parent Welcome Section */
+  #welcomeDetails {
+      border: 1px solid;
+      width: 100%;
+      height: 100vh;
+      /* background: linear-gradient(155deg, #000000, #8463f8);
+     */
+      /* background: linear-gradient(135deg, #0A2540, #2C3E50); */
+      background: linear-gradient(135deg, #1E3C72, #2A5298);
+
+      color: white;
+      font-size: 30px;
+      font-weight: 700;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      animation: welcomeHide 1s ease-out;
+      animation-delay: 5s;
+
+
+      position: fixed;
+      z-index: 11111 !important;
+      top: 0;
+      left: 0;
+      transition: opacity 0.5s ease-out;
+  }
+
+  /* Paragraph Styling */
+  #welcomeDetails>p {
+      margin: 10px 0;
+      opacity: 0;
+      font-family: Arial, sans-serif;
+  }
+
+  /* Specific Welcome Paragraph Animations */
+  .welcomeHello {
+      color: #15dcff;
+      animation: fadeText 1s ease-out forwards;
+      animation-delay: 1s;
+
+
+  }
+
+  .para2 {
+      animation: fadeText 1s ease-out forwards;
+      animation-delay: 2s;
+      /* color: #E0E0E0; */
+
+      font-size: 39px;
+      /* color:#15dcff; */
+      color: #FFD700 !important;
+
+  }
+
+  .para2>span {
+      color: white
+  }
+
+  .para3 {
+      animation: fadeText 1s ease-out forwards;
+      animation-delay: 3s;
+      font-size: 28px;
+  }
+
+  .para3>span {
+      color: #FFD700;
+  }
+
+  .welcome-hidden {
+      display: none !important;
+      opacity: 0;
+  }
+
+
+
+  /* .mainbanner {
+      background-color: #111C22;
+  } */
+
+  .main_details {
+
+      height: 550px;
+
+  }
+
+  .dev-paras {
+      display: flex;
+      align-items: center;
+      margin-left: 80px;
+      border: 1px solid #fff;
+      width: fit-content;
+      padding: 0px 17px;
+
+  }
+
+  .main_block1 {
+      justify-content: center;
+      align-items: center;
+  }
+
+  .heading1 {
+      font-size: 60px;
+      font-weight: 700;
+      color: #15DCFF;
+      text-shadow: 1px 1px 4px #15DCFF;
+      margin: 0;
+  }
+
+  .heading2 {
+      font-size: 107px;
+      font-weight: 500;
+      color: #FF1519;
+      margin: 0;
+
+  }
+
+  .paras {
+      margin: 0;
+      font-size: 38px;
+      color: white
+  }
+
+  .main_para {
+      margin-top: 19px;
+      color: #15DCFF;
+      font-size: 18px;
+  }
+
+  .main_para>span {
+      color: #fff;
+      font-weight: 500;
+  }
+
+  .view_work_btn {
+      border: 3px solid #15DCFF;
+      border-radius: 15px;
+      color: #fff;
+      padding: 9px 18px
+  }
+
+
+  /* services  */
+  .services_box {
+      margin: auto;
+
+  }
+
+  .services_box>div {
+      border: 2px solid #15DCFF;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 6px;
+      border-radius: 20px;
+      background-color: #fff;
+
+  }
+
+  .serv_para {
+      font-size: 33px;
+      font-weight: 500;
+      color: #154560;
+      margin: 0;
+
+  }
+
+  .my_services {
+      width: 80%;
+      margin: auto;
+  }
+
+  .profile_img {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+  }
+
+  /* skills  */
+  .skill {
+      /* background-image: url('./assets/images/bg1.png');
+      background-repeat: no-repeat;
+      background-size: 100%; */
+      background-color: #E2F3F9;
+  }
+
+  .skillBox {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 80%;
+      margin: auto;
+
+  }
+
+  .skillBox>img {
+      width: 125px
+  }
+
+  .headings {
+      /* color: #003958; */
+      color: #15dcff;
+      font-weight: 600;
+      font-size: 40px;
+      text-align: center;
+      font-family: 'poppins';
+      margin-bottom: 0px;
+  }
+
+  .proj-heading {
+      /* color: #101A20; */
+      color: #ffffff;
+      font-size: 40px;
+  }
+
+  .proj-para {
+      color: white;
+      font-size: 19px;
+  }
+
+  .tx1 {
+      font-size: 24px;
+      font-weight: 500;
+  }
+
+  /* figma  project design  */
+  .figma-para {
+      text-decoration: none;
+      color: #A86901;
+      font-size: 21px;
+      font-weight: 500;
+  }
+
+  .fig-image {
+      min-height: 532px;
+  }
+
+  .fig-design {
+      /* background-color: white; */
+      padding-block: 37px
+  }
+
+  .flyre-img {
+      width: 100%;
+  }
+
+  .flyre-heading {
+      color: #014e2b;
+  }
+
+  .flyre-block {
+      padding: 23px;
+      background-color: #e9ecef;
+      margin-bottom: 30px;
+  }
+
+  /* board img  */
+  .board-img {
+      width: 100%;
+  }
+
+  .board-imgblock {
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  .routeBar {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 22px;
+      font-weight: 600;
+      list-style-type: none;
+
+  }
+
+  .routeBar>li {
+      padding: 8px 17px;
+      border: 0.5px solid #ccc;
+
+  }
+
+  .routeBar a {
+      text-decoration: none;
+      color: #00c4ff;
+  }
+
+
+  .psdDsignImages{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 41px;
+  }
+  .psimg{
+    width:100%;
+   
+  }
+
+  /* Common Animation Keyframes */
+  @keyframes fadeText {
+      0% {
+          opacity: 0;
+          transform: translateY(30px);
+      }
+
+      100% {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
+
+  @keyframes welcomeHide {
+      0% {
+          opacity: 1;
+
+      }
+
+      100% {
+          opacity: 0;
+          transform: translateY(-100%);
+      }
+  }
+
+
+  @keyframes animscroll {
+      0% {
+          opacity: 0;
+          scale: 0.5
+      }
+
+      100% {
+          opacity: 1;
+          scale: 1
+      }
+
+  }
+
+
+  
+  @keyframes skillanime {
+      0% {
+          opacity: 0;
+          transform: translateX(-1000%);
+      }
+
+      70% {
+          opacity: 0.2;
+
+      }
+
+      100% {
+          opacity: 1;
+          transform: translateX(0%);
+
+      }
+  }
+
+  .main_block1 {
+      animation: mainbar 1s linear;
+
+
+  }
+.profile_img{
+    animation: mainImg 1s ease-in;
+  
+
+}
+  @keyframes mainbar {
+      0% {
+          opacity: 0;
+          transform: translate(-30%,-100%);
+      }
+
+      100% {
+          opacity: 1;
+          transform: translate(0%);
+      }
+  }
+  @keyframes mainImg {
+    0% {
+        opacity: 0;
+        transform: translate(+100%,+5%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0%);
+    }
+}
+
+
+
+
+.fig-img{
+    animation: animscroll linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+
+}
+  .skil-img {
+      animation: skillanime linear;
+      animation-timeline: view();
+      animation-range: entry 0% cover 60%;
+
+  }
+
+
+  .proj-block {
+      animation: animscroll linear;
+      animation-timeline: view();
+      animation-range: entry 0% cover 40%;
+
+
+  }
+
+  @media only screen and (max-width:628px) {
+      .heading1 {
+          font-size: 35px;
+          font-weight: 500;
+      }
+
+      .dev-paras {
+          margin-left: initial;
+          margin-top: 5px;
+      }
+
+      .heading2 {
+          font-size: 87px;
+      }
+
+      .paras {
+          font-size: 29px;
+      }
+
+      .main_details {
+          height: auto;
+          padding: 13px 5px
+      }
+
+      .profile_img {
+          margin-top: 20px;
+          justify-content: center;
+      }
+
+      .my_services {
+          width: 90%;
+      }
+
+      .serv_img {
+          width: 97px;
+      }
+
+      .serv_para {
+          font-size: 29px;
+      }
+
+      .services_box>div {
+          justify-content: space-between;
+          margin-top: 14px;
+      }
+
+      .routeBar>li {
+          padding: 8px 3px;
+      }
+
+      .routeBar {
+          font-size: 12px;
+      }
+
+      .psdDsignImages{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:15px;
+      }
+      
+  }
+
+
+
+
