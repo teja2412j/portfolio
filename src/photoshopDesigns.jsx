@@ -38,7 +38,7 @@ function PhotoshopDesigns() {
                         }
                     </div>
                 </div>
-            </div>
+            </div>npm install gh-pages --save-dev
         </>
     )
 }
